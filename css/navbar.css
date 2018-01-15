@@ -1,33 +1,54 @@
 .navigation-bar__section{
-    text-align: center;
+    height: 60px;
     background-color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navigation-bar__burger-menu{
+    position: relative;
+    left: 15px;
+    top: 10px;
+    float: left;
+    text-align: center;
+}
+
+.navigation-bar__berger-menu--subtitle{
+    color: white;
+    font-size: 11px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 5px;
+}
+
+.navigation-bar__logo-menu{
+    color: white;
+    font-size: 50px;
+    line-height: 60px;
+    font-family: WolfintheCity;
+    display: inline-block;
+    padding: 0;
+    margin:0;
+}
+
+.navigation-bar__sections-nav{
+    float: right;
+    color: white;
+    width: 100px;
+}
+
+.navigation-bar__sections-nav--list{
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.navigation-bar__list {
-    list-style-type: none;
-    margin:0 auto;
-    padding: 0;
-}
-
-.navigation__item{
-    display: inline-block;
-    padding: 20px;
-}
-
-.navigation__item--link{
-    color: white;
-    text-decoration: none;
-}
-
-.navigation__item--link:visited{
-    color: green;
-    text-decoration: none;
-}
-
-.navigation__item--link:hover{
-    color: orange;
-    text-decoration: none;
+.navigation-bar__sections-nav--light{
+    background: darkgrey;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
 }
 
