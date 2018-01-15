@@ -1,0 +1,33 @@
+.navigation-bar__section{
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-bar__list {
+    list-style-type: none;
+    margin:0 auto;
+    padding: 0;
+}
+
+.navigation__item{
+    display: inline-block;
+    padding: 20px;
+}
+
+.navigation__item--link{
+    color: white;
+    text-decoration: none;
+}
+
+.navigation__item--link:visited{
+    color: green;
+    text-decoration: none;
+}
+
+.navigation__item--link:hover{
+    color: orange;
+    text-decoration: none;
+}
+
