@@ -1,48 +1,57 @@
 .navigation-bar__section{
+    position: relative;
     height: 60px;
     background-color: black;
     margin: 0;
     padding: 0;
-    text-align: center;
+    color: white;
 }
 
 .navigation-bar__burger-menu{
-    position: relative;
+    position: absolute;
     left: 15px;
     top: 10px;
     float: left;
     text-align: center;
+    cursor: pointer;
 }
 
 .navigation-bar__berger-menu--subtitle{
-    color: white;
+    position: relative;
+    bottom: 5px;
     font-size: 11px;
     padding: 0;
     margin: 0;
-    position: relative;
-    bottom: 5px;
 }
 
 .navigation-bar__logo-menu{
-    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    font-family: WolfintheCity;
     font-size: 50px;
     line-height: 60px;
-    font-family: WolfintheCity;
-    display: inline-block;
     padding: 0;
-    margin:0;
+    margin: 0;
 }
 
 .navigation-bar__sections-nav{
-    float: right;
-    color: white;
-    width: 100px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
 }
 
 .navigation-bar__sections-nav--list{
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin-top: 10px;
+}
+
+.navigation-bar__sections-nav--item{
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
 }
 
 .navigation-bar__sections-nav--light{
@@ -50,5 +59,76 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+.active-section-light{
+    background: orange;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+
+.navigation-bar__sections-nav--subtitle{
+    margin-top: 10px;
+}
+
+
+.navigation-bar__section--link{
+    text-decoration: none;
+    color: white;
+}
+
+.navigation-bar__section--link:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.navigation-bar__section--link:visited{
+    text-decoration: none;
+    color: white;
+}
+
+
+.menu-side__section{
+    position: relative;
+    height: 100vh;
+    background-color: black;
+    width: 250px;
+    left: -250px;
+
+    color: white;
+}
+
+
+.menu-side__header{
+    height: 60px;
+}
+
+.menu-side__body{
+}
+.menu-side-title{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    font-family: WolfintheCity;
+    font-size: 60px;
+    line-height: 55px;
+}
+
+.close-menu-btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
 }
 
